@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "merriweather-regular";
+    src: url(./)
+}        
+.header{
+    background-color:#111B1C;
+color: white;
+
+}
+   
+.colorFondoAzul{
+    background-color:#111B1C;
+
+}
+
+.colorFondoFooter{
+    background-color: #111B1C;
+    .colorletra{
+        color: white;
+    }
+}
+
+.fondomain{
+    background-color: beige;
+}
