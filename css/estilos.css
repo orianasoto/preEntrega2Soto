@@ -10,9 +10,15 @@ color: white;
    
 .colorFondoAzul{
     background-color:#111B1C;
+    colorb{
+        color: white;
+    }
+   
 
 }
-
+.colorb{
+    color: white;
+}
 .colorFondoFooter{
     background-color: #111B1C;
     .colorletra{
