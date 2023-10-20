@@ -1,0 +1,8 @@
+    /*FONDO HEADER*/
+.colorFondoAzul{
+    background-color: map-get($mapa-colores, color-fondooscuro );
+    .colorb{
+        color: map-get($mapa-colores , color-blanco );
+    }
+
+}

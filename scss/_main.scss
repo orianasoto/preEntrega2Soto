@@ -1,0 +1,44 @@
+
+/*FONDO MAIN*/
+.fondomain{
+    background-color: rgb(92, 92, 85);
+}
+
+
+/*TITULOS*/
+.titulotatuajes{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+}
+
+.titulosugerencias{
+    @extend .titulotatuajes;
+}
+
+.tituloindex{
+    @extend .titulotatuajes
+}
+
+.titulocontacto{
+    @extend .titulotatuajes
+}
+
+
+.carousel{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;;
+   /*max-width: 1000px; // Ajusta el ancho máximo del carrusel
+    margin: 0 auto;*/
+  }
+  .carousel-inner{
+    flex: 0 100%;
+    
+  }

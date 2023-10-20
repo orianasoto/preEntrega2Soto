@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+     
+.header{
+    background-color:#111B1C;
+color: white;
+
+}
+   
+.colorFondoAzul{
+    background-color:#111B1C;
+    .colorb{
+        color: white;
+    }
+
+}
+
+
+.colorFondoFooter{
+    background-color: #111B1C;
+    .colorletra{
+        color: white;
+    }
+}
+
+.fondomain{
+    background-color: beige;
+}
+
+.galeria{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid: auto flow 250px; 
+    gap: 20px;
+    padding: 20px;
+}
