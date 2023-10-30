@@ -7,7 +7,8 @@
 
 /*FONDO HEADER*/
 .colorFondoAzul {
-  background-color: #111B1C;
+  color: #020202;
+  background-color: #020202;
 }
 .colorFondoAzul .colorb {
   color: white;
@@ -45,7 +46,7 @@
 
 /*fondo footer*/
 .colorFondoFooter {
-  background-color: #111B1C;
+  background-color: #020202;
 }
 .colorFondoFooter .colorletra {
   color: white;
@@ -74,4 +75,56 @@
 }
 .containerformulario form button:hover {
   background-color: #555;
+}
+
+/*fondo main*/
+.fondomain {
+  background-color: rgb(5, 5, 5);
+  color: rgb(248, 242, 242);
+}
+
+/*footer*/
+.colorredes {
+  color: white;
+  line-height: 6%;
+  margin-right: 6%;
+}
+
+/*mapa*/
+.mapa {
+  background-color: rgb(79, 31, 143);
+  color: black;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*videos index*/
+.videos {
+  width: 50vh;
+  height: 500px;
+  position: relative;
+  left: 200px;
+  margin-top: 10px;
+}
+
+.img1 {
+  margin: 5px;
+}
+
+/*pag tatuajes*/
+/*.videosTatuajes{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left:  150px;
+    margin-top: 20px ;
+  }*/
+.imgestudio {
+  margin-left: 800px;
+}
+
+/* body*/
+.contenedorbody {
+  overflow-x: hidden;
 }/*# sourceMappingURL=estilos.css.map */
