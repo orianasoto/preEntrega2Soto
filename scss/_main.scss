@@ -1,11 +1,27 @@
 
-/*FONDO MAIN*/
+
+/*fondo main*/
 .fondomain{
-    background-color: rgb(92, 92, 85);
+    background-color: map-get($mapa-colores, color-fondooscuro );
+    color: map-get($mapa-colores, color-blanco )
 }
 
 
-/*TITULOS*/
+/*videos index*/
+.videos{
+    width: 50vh;
+    height: 500px;
+    position: relative;
+    left:  200px;
+    margin-top: 10px ;
+       }
+
+/*Imagenes del index*/
+.img1{
+    margin: 10px;
+    }
+
+/*TITULOS DE LAS PAGINAS*/
 .titulotatuajes{
     text-align: center;
     margin: 0 auto;
@@ -13,32 +29,115 @@
     justify-content: center;
     align-items: center;
     height: 20vh; 
+    font-family: $font-secundaria;
 }
 
-.titulosugerencias{
-    @extend .titulotatuajes;
-}
-
-.tituloindex{
-    @extend .titulotatuajes
-}
-
-.titulocontacto{
-    @extend .titulotatuajes
-}
-
-
-.carousel{
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;;
-   /*max-width: 1000px; // Ajusta el ancho máximo del carrusel
-    margin: 0 auto;*/
+/*fuentes de index*/
+.titulosprincipal{
+    font-family: $font-principal;
   }
-  .carousel-inner{
-    flex: 0 100%;
-    
+  
+  .card-text{
+  font-family: $font-principal2;
+  
+  }
+  .nat{
+    font-family: $font-principal2;
+  }
+  .flink{
+    font-family:$font-principal;
+  }
+  
+  .parrafos1{
+    font-family: $font-principal2;
+  }
+
+
+  .parrafos2{
+    font-family: $font-principal;
+  }
+  /*pag sugerencias*/
+  .subtsugerencias{
+    font-family: $font-principal;
+  }
+  
+  .itens{
+    font-family: $font-principal2;
+  }
+  
+  /*estudio*/
+  .parrafo3{
+    font-family: $font-principal2;
+  }
+  
+  /*FORMULARIO TURNO*/
+
+.containerformulario{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid map-get($mapa-colores, color-grisclaro );
+        border-radius: 5px;
+        }
+        form button{
+            border:map-get($mapa-colores, color-grisoscuro );
+            color: map-get($mapa-colores, color-grisclaro );
+            border:none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        form button:hover {
+            background-color: map-get($mapa-colores, color-grisclaro );
+        }
+        
+}
+
+
+.containerformulario{
+    background-image: linear-gradient(to right top, #051937, #282a64, #5f348b, #a231a6, #eb12b3);
+    margin-bottom: 2%;
+    color: map-get($mapa-colores, color-fondooscuro )
+}
+
+.fuenteformulario{
+    font-family:$font-principal2 ;
+  }
+  
+  .h1formulario{
+    font-family: $font-principal;
+  }
+  
+  .fx{
+    font-family: $font-principal2;
+  }
+
+.mapa{
+    background-image: linear-gradient(to right top, #051937, #282a64, #5f348b, #a231a6, #eb12b3);
+   margin-bottom: 2%;
+   color: map-get($mapa-colores, color-fondooscuro);
+ 
+    display: flex;
+     }
+
+
+/*Margen sugerencia parrafo del h1*/   
+.P-sugerencias{
+    margin: 10px;
+    font-family: $font-principal2;
+   }
+ 
+/*main 404*/
+.contenedor404{
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .fuente404{
+    font-family: $font-secundaria;
   }

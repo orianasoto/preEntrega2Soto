@@ -3,35 +3,22 @@
     background-color:  map-get($mapa-colores, color-fondooscuro );
     .colorletra{
         color: map-get($mapa-colores , color-blanco );
+        
+    }
+    
+/*footer color y tamaño de los iconos*/
+    .colorredes{
+        color: map-get($mapa-colores, color-blanco  );
+        line-height:25px;
+         margin-right: 25px;
+    
     }
 }
 
-
-/*FOOTER FORMILARIO TURNO*/
-.containerformulario{
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    form input, form textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid map-get($mapa-colores, color-grisclaro );
-        border-radius: 5px;
-        }
-        form button{
-            border:map-get($mapa-colores, color-grisoscuro );
-            color: map-get($mapa-colores, color-grisclaro );
-            border:none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor:pointer;
-        }
-        form button:hover {
-            background-color: map-get($mapa-colores, color-grisclaro );
-        }
-        
-}
+.fuentefooter{
+    font-family: $font-principal;
+  }
+  
 
 
 

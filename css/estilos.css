@@ -14,45 +14,85 @@
   color: white;
 }
 
-/*FONDO MAIN*/
-.fondomain {
-  background-color: rgb(92, 92, 85);
+.nat {
+  font-family: "regular";
 }
 
-/*TITULOS*/
-.titulotatuajes, .titulocontacto, .tituloindex, .titulosugerencias {
+.flink {
+  font-family: "italic";
+}
+
+/*fondo main*/
+.fondomain {
+  background-color: #020202;
+  color: white;
+}
+
+/*videos index*/
+.videos {
+  width: 50vh;
+  height: 500px;
+  position: relative;
+  left: 200px;
+  margin-top: 10px;
+}
+
+/*Imagenes del index*/
+.img1 {
+  margin: 10px;
+}
+
+/*TITULOS DE LAS PAGINAS*/
+.titulotatuajes, .titulosugerencias, .tituloindex, .titulocontacto {
   text-align: center;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20vh;
+  font-family: "bold";
 }
 
-.carousel {
-  display: flex;
-  overflow: hidden;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  /*max-width: 1000px; // Ajusta el ancho máximo del carrusel
-   margin: 0 auto;*/
+/*fuentes de index*/
+.titulosprincipal {
+  font-family: "italic";
 }
 
-.carousel-inner {
-  flex: 0 100%;
+.card-text {
+  font-family: "regular";
 }
 
-/*fondo footer*/
-.colorFondoFooter {
-  background-color: #020202;
-}
-.colorFondoFooter .colorletra {
-  color: white;
+.nat {
+  font-family: "regular";
 }
 
-/*FOOTER FORMILARIO TURNO*/
+.flink {
+  font-family: "italic";
+}
+
+.parrafos1 {
+  font-family: "regular";
+}
+
+.parrafos2 {
+  font-family: "italic";
+}
+
+/*pag sugerencias*/
+.subtsugerencias {
+  font-family: "italic";
+}
+
+.itens {
+  font-family: "regular";
+}
+
+/*estudio*/
+.parrafo3 {
+  font-family: "regular";
+}
+
+/*FORMULARIO TURNO*/
 .containerformulario {
   max-width: 400px;
   margin: 0 auto;
@@ -77,10 +117,65 @@
   background-color: #555;
 }
 
-@font-face {
-  font-family: "BlackItalic";
-  src: url(../assets/font/Merriweather-BlackItalic.ttf);
+.containerformulario {
+  background-image: linear-gradient(to right top, #051937, #282a64, #5f348b, #a231a6, #eb12b3);
+  margin-bottom: 2%;
+  color: #020202;
 }
+
+.fuenteformulario {
+  font-family: "regular";
+}
+
+.h1formulario {
+  font-family: "italic";
+}
+
+.fx {
+  font-family: "regular";
+}
+
+.mapa {
+  background-image: linear-gradient(to right top, #051937, #282a64, #5f348b, #a231a6, #eb12b3);
+  margin-bottom: 2%;
+  color: #020202;
+  display: flex;
+}
+
+/*Margen sugerencia parrafo del h1*/
+.P-sugerencias {
+  margin: 10px;
+  font-family: "regular";
+}
+
+/*main 404*/
+.contenedor404 {
+  display: flex;
+  align-items: center;
+}
+
+.fuente404 {
+  font-family: "bold";
+}
+
+/*fondo footer*/
+.colorFondoFooter {
+  background-color: #020202;
+  /*footer color y tamaño de los iconos*/
+}
+.colorFondoFooter .colorletra {
+  color: white;
+}
+.colorFondoFooter .colorredes {
+  color: white;
+  line-height: 25px;
+  margin-right: 25px;
+}
+
+.fuentefooter {
+  font-family: "italic";
+}
+
 /* body*/
 .contenedorbody {
   overflow-x: hidden;
@@ -91,58 +186,24 @@
   background-color: rgb(5, 5, 5);
 }
 
-/*fondo main*/
-.fondomain {
-  background-color: rgb(5, 5, 5);
-  color: rgb(248, 242, 242);
+/*fondo body 404*/
+.fondobody404 {
+  background-color: white;
 }
 
-/*footer*/
-.colorredes {
-  color: white;
-  line-height: 6%;
-  margin-right: 6%;
+@font-face {
+  font-family: "italic";
+  src: url(../assets/font/Merriweather-Italic.ttf);
 }
-
-/*mapa*/
-.mapa {
-  background-image: linear-gradient(to right top, #051937, #282a64, #5f348b, #a231a6, #eb12b3);
-  margin-bottom: 2%;
-  color: black;
-  display: flex;
-  /*justify-content:flex-start;*/
+@font-face {
+  font-family: "regular";
+  src: url(../assets/font/Merriweather-LightItalic.ttf);
 }
-
-/*videos index*/
-.videos {
-  width: 50vh;
-  height: 500px;
-  position: relative;
-  left: 200px;
-  margin-top: 10px;
+@font-face {
+  font-family: "bold";
+  src: url(../assets/font/Merriweather-BoldItalic.ttf);
 }
-
-.img1 {
-  margin: 5px;
-}
-
-/*pag tatuajes*/
-/*.videosTatuajes{
-    width: 800px;
-    height: 500px;
-    position: relative;
-    left:  150px;
-    margin-top: 20px ;
-  }*/
-.imgestudio {
-  margin-left: 800px;
-}
-
-/* body*/
-.contenedorbody {
-  overflow-x: hidden;
-}
-
-.imgestencil {
-  margin-right: 5px;
+@font-face {
+  font-family: "light";
+  src: url(../assets/font/Merriweather-Light.ttf);
 }/*# sourceMappingURL=estilos.css.map */
